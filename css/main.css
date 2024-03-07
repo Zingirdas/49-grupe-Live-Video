@@ -1,3 +1,38 @@
-main {
-    background-color: green;
+main.container {
+    min-height: calc(100vh - 160px);
+   
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 40%;
+    margin-left: 20px;
+    
+}
+
+.main-title {
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+.description {
+    font-size: 11px;
+    margin-bottom: 20px;
+
+    
+}
+
+.btn {
+    padding: 8px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
 }

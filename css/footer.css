@@ -1,3 +1,19 @@
-  footer {
-      background-color: red;
-  }
+.social-list {
+  display: flex;
+  gap: 20px;
+}
+
+.social-list > .icon {
+  display: inline;
+  width: 40px;
+  height: 40px;
+
+  background-color: lightblue;
+}
+
+
+
+.copyright {
+  font-style: italic;
+}
+

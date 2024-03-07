@@ -1,15 +1,26 @@
  header {
-     background-color: yellow;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 800px;
+   margin: 20px calc(50% - 400px);
  }
- header img{
-    background-color: yellow;
- }
- heder >img{
-     }
-     header >nav{
-     }
+.logo {
+    
+    height: 40px;
+}
+
+.main-nav {
+   display: flex;
+   gap: 20px;
+}
      
-     header a{
-     }
-    nav > a{
-     }
+.link {
+   color: darkblue;
+   font-size: 20px;
+   text-decoration: none;
+}
+     
+.link:hover{
+   background-color: red;
+}
