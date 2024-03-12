@@ -4,16 +4,14 @@
 }
 
 .social-list > .icon {
-  display: inline;
-  width: 40px;
-  height: 40px;
-
-  background-color: lightblue;
+  font-size: 24px;
 }
 
 
 
 .copyright {
   font-style: italic;
+  color: red;
+  text-decoration: none;
 }
 
