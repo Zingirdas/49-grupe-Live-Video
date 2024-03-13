@@ -8,6 +8,7 @@
 .logo {
     
     height: 40px;
+    
 }
 
 .main-nav {
@@ -16,7 +17,7 @@
 }
      
 .link {
-   color: darkblue;
+   color: #3C2BD1;
    font-size: 20px;
    text-decoration: none;
 }
@@ -25,3 +26,12 @@
    text-decoration: underline 3px;
    background-color: red;
 }
+.link:focus {
+   background-color: aqua;
+}
+
+@media (max-width: 700px) {
+    .main-nav {
+         display: none;
+      }
+   }

@@ -5,6 +5,7 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     
+    
 }
 
 body {
@@ -35,8 +36,11 @@ body {
     .container {
             width: 400px;
             margin: 20px calc(50% - 200px);
-            
+.main-nav{
+    display: none;
 }
+        }
+
 
 @media (max-width: 460px){
     .container {

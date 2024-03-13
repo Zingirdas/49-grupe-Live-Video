@@ -1,5 +1,6 @@
 main.container {
     min-height: calc(100vh - 160px);
+    
    
 }
 
@@ -10,6 +11,7 @@ main.container {
     gap: 40px;
     width: 40%;
     margin-left: 20px;
+    
     
     
     
@@ -33,7 +35,9 @@ main.container {
     font-size: 50px;
     line-height: 50px;
     text-transform: uppercase;
-    color: black;
+    color: #190E77;
+    padding: 20px;
+    background-color: #fff;
         
 }
 
@@ -41,7 +45,8 @@ main.container {
 .description {
     font-size: 11px;
     margin-bottom: 20px;
-
+    padding: 20px;
+background-color: #fff;
     
 }
 
@@ -49,7 +54,7 @@ main.container {
     padding: 8px 30px;
     font-size: 20px;
     text-decoration: none;
-    background-color: blue;
+    background-color: #3C2BD1;
     color: white;
     border-radius: 4px;
 }
